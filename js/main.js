@@ -11,7 +11,7 @@
 
       'hero.greeting': '你好，我是',
       'hero.name': '李雾月',
-      'hero.title': '游戏策划 & AI Agent 开发',
+      'hero.title': 'AI游戏系统工程师 & AI玩法开发工程师',
       'hero.tagline': '探索游戏设计的边界，用 AI 智能体赋予虚拟世界生命。',
       'hero.hint': '点击或滚动探索',
 
@@ -68,7 +68,7 @@
 
       'hero.greeting': "Hello, I'm",
       'hero.name': 'Li Wuyue',
-      'hero.title': 'Game Designer & AI Agent Developer',
+      'hero.title': 'AI Game Systems Engineer & AI Gameplay Developer',
       'hero.tagline': 'Exploring the frontiers of game design, breathing life into virtual worlds with AI agents.',
       'hero.hint': 'Click or scroll to explore',
 
