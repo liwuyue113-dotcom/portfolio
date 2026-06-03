@@ -29,42 +29,39 @@
       'about.email.label': '邮箱',
       'about.email.value': '2910140171@qq.com',
 
-      'exp.label': '工作经历',
-      'exp.heading': '我留下印记<br>的地方。',
-      'exp.item1.date': '2022 — 至今',
-      'exp.item1.role': '高级产品设计师',
-      'exp.item1.company': 'Acme Inc.',
-      'exp.item1.desc': '主导核心产品套件的设计工作。重新设计了旗舰仪表盘，日活跃用户增长 40%。建立了被三个产品团队共同使用的设计系统。',
-      'exp.item2.date': '2019 — 2022',
-      'exp.item2.role': '产品设计师',
-      'exp.item2.company': 'Studio Beta',
-      'exp.item2.desc': '为一款覆盖 200 万+ 用户的产品交付了面向消费者的功能。主导从用户研究到高保真原型再到开发交付的完整设计流程。',
-      'exp.item3.date': '2017 — 2019',
-      'exp.item3.role': 'UI/UX 设计师',
-      'exp.item3.company': 'Creative Studio Gamma',
-      'exp.item3.desc': '为金融科技、教育和电商领域的客户设计品牌形象与数字体验。按时、按范围交付了 20+ 个项目。',
+      'exp.label': '项目经历',
+      'exp.heading': '近期在做<br>的事情。',
+      'exp.item1.date': '2026.05 — 至今',
+      'exp.item1.role': '叙事驱动型游戏原型 Demo',
+      'exp.item1.company': '独立开发',
+      'exp.item1.desc': '设计并实现核心玩法循环与多分支叙事框架，搭建角色情感关系网与对话系统，预留 AI Agent 接入接口，持续打磨玩法与叙事体验。',
+      'exp.item2.date': '2026.05 — 2026.06',
+      'exp.item2.role': 'RAG智能穿搭助手',
+      'exp.item2.company': '独立开发',
+      'exp.item2.desc': '基于 LangChain LCEL + ChromaDB 搭建 RAG 检索链路，完成文档解析、分块、嵌入、检索全流程，Streamlit 前后端一体化部署，支持多轮对话与知识库管理。',
+      'exp.item3.date': '2026.04 — 至今',
+      'exp.item3.role': 'AI-Interview 智能模拟面试系统',
+      'exp.item3.company': '独立开发',
+      'exp.item3.desc': '基于 FastAPI + LangChain Agent + RAG 的 AI 模拟面试系统，集成简历解析、岗位匹配、智能出题、AI 评分全流程，Docker Compose 全栈部署。',
 
       'portfolio.label': '作品集',
       'portfolio.heading': '精选<br>作品。',
-      'portfolio.item1.name': '仪表盘重设计',
-      'portfolio.item1.cat': '产品设计 · 2023',
-      'portfolio.item1.desc': '对 SaaS 分析仪表盘的全面改版，聚焦于清晰度、速度和愉悦感。',
-      'portfolio.item2.name': '设计系统',
-      'portfolio.item2.cat': '设计系统 · 2022',
-      'portfolio.item2.desc': '一套可扩展的组件库和 Token 架构，为三个产品团队提供支持。',
-      'portfolio.item3.name': '手机银行应用',
-      'portfolio.item3.cat': 'UX 设计 · 2021',
-      'portfolio.item3.desc': '一款金融科技应用的端到端移动端体验，从用户研究到精致的界面设计。',
-      'portfolio.item4.name': '品牌形象设计',
-      'portfolio.item4.cat': '品牌设计 · 2020',
-      'portfolio.item4.desc': '一家教育创业公司的视觉识别系统和规范指南，包括 Logo、字体和应用物料。'
+      'portfolio.item1.name': '叙事驱动型游戏原型 Demo',
+      'portfolio.item1.cat': '游戏开发 · 叙事设计',
+      'portfolio.item1.desc': '独立开发的叙事驱动型游戏原型，聚焦角色情感关系网与多线叙事结构。完成核心玩法循环与分支剧情框架设计，预留 AI Agent 接入 NPC 系统的动态叙事接口，探索从固定脚本到智能叙事的范式演进。',
+      'portfolio.item2.name': 'AI-Interview — 智能模拟面试系统',
+      'portfolio.item2.cat': 'AI Agent · RAG · 全栈',
+      'portfolio.item2.desc': '基于 LangChain Tool Calling Agent + RAG 的 AI 模拟面试系统。围绕简历解析、岗位匹配、RAG 出题、AI 评分、面试报告构建完整闭环，FastAPI + PostgreSQL + pgvector + Celery + Docker 全栈部署。',
+      'portfolio.item3.name': 'RAG智能穿搭助手',
+      'portfolio.item3.cat': 'RAG · LLM · 全栈',
+      'portfolio.item3.desc': '基于 LangChain LCEL + ChromaDB 的 RAG 智能穿搭推荐系统。完成文档解析、递归分块、向量嵌入与语义检索全链路，配合结构化 Prompt 约束 qwen3-max 输出质量，Streamlit 前后端一体化部署。'
     },
 
     en: {
       'nav.home': 'Home',
       'nav.about': 'About',
-      'nav.experience': 'Experience',
-      'nav.portfolio': 'Portfolio',
+      'nav.experience': 'Timeline',
+      'nav.portfolio': 'Projects',
 
       'hero.greeting': "Hello, I'm",
       'hero.name': 'Li Wuyue',
@@ -86,35 +83,32 @@
       'about.email.label': 'Email',
       'about.email.value': '2910140171@qq.com',
 
-      'exp.label': 'Experience',
-      'exp.heading': "Where I've<br>made an impact.",
-      'exp.item1.date': '2022 — Present',
-      'exp.item1.role': 'Senior Product Designer',
-      'exp.item1.company': 'Acme Inc.',
-      'exp.item1.desc': 'Leading design for the core product suite. Redesigned the flagship dashboard, growing daily active users by 40%. Established the design system used across three product teams.',
-      'exp.item2.date': '2019 — 2022',
-      'exp.item2.role': 'Product Designer',
-      'exp.item2.company': 'Studio Beta',
-      'exp.item2.desc': 'Shipped consumer-facing features for a product reaching 2M+ users. Drove the end-to-end design process from research through high-fidelity prototypes and developer handoff.',
-      'exp.item3.date': '2017 — 2019',
-      'exp.item3.role': 'UI/UX Designer',
-      'exp.item3.company': 'Creative Studio Gamma',
-      'exp.item3.desc': 'Designed brand identities and digital experiences for clients across fintech, education, and e-commerce. Delivered 20+ projects on time and within scope.',
+      'exp.label': 'Timeline',
+      'exp.heading': "What I'm<br>building.",
+      'exp.item1.date': '2026.05 — Present',
+      'exp.item1.role': 'Narrative-Driven Game Prototype',
+      'exp.item1.company': 'Solo Project',
+      'exp.item1.desc': 'Designing and implementing core gameplay loops with a multi-branch narrative framework, building character relationship networks and dialogue systems, with AI Agent integration architecture for dynamic storytelling.',
+      'exp.item2.date': '2026.05 — 2026.06',
+      'exp.item2.role': 'RAG Smart Outfit Assistant',
+      'exp.item2.company': 'Solo Project',
+      'exp.item2.desc': 'Built a RAG retrieval pipeline with LangChain LCEL + ChromaDB, covering document parsing, chunking, embedding, and semantic retrieval. Streamlit-based full-stack deployment with multi-turn dialogue and knowledge base management.',
+      'exp.item3.date': '2026.04 — Present',
+      'exp.item3.role': 'AI-Interview Mock Interview System',
+      'exp.item3.company': 'Solo Project',
+      'exp.item3.desc': 'An AI-powered mock interview system built with FastAPI + LangChain Agent + RAG, integrating resume parsing, job matching, intelligent question generation, and AI scoring. Full-stack deployment with Docker Compose.',
 
-      'portfolio.label': 'Portfolio',
-      'portfolio.heading': 'Selected<br>works.',
-      'portfolio.item1.name': 'Dashboard Redesign',
-      'portfolio.item1.cat': 'Product Design · 2023',
-      'portfolio.item1.desc': 'Complete overhaul of a SaaS analytics dashboard, focusing on clarity, speed, and delight.',
-      'portfolio.item2.name': 'Design System',
-      'portfolio.item2.cat': 'Systems · 2022',
-      'portfolio.item2.desc': 'A scalable component library and token architecture powering three product teams.',
-      'portfolio.item3.name': 'Mobile Banking App',
-      'portfolio.item3.cat': 'UX Design · 2021',
-      'portfolio.item3.desc': 'End-to-end mobile experience for a fintech app, from user research to polished UI.',
-      'portfolio.item4.name': 'Brand Identity',
-      'portfolio.item4.cat': 'Branding · 2020',
-      'portfolio.item4.desc': 'Visual identity and guidelines for an education startup, including logo, typography, and collateral.'
+      'portfolio.label': 'Projects',
+      'portfolio.heading': 'Selected<br>projects.',
+      'portfolio.item1.name': 'Narrative-Driven Game Prototype',
+      'portfolio.item1.cat': 'Game Dev · Narrative Design',
+      'portfolio.item1.desc': 'An independently developed narrative-driven game prototype focused on character emotional relationship networks and multi-threaded storytelling, with AI Agent integration for dynamic NPC narrative control.',
+      'portfolio.item2.name': 'AI-Interview — Mock Interview System',
+      'portfolio.item2.cat': 'AI Agent · RAG · Full-Stack',
+      'portfolio.item2.desc': 'An AI mock interview system with LangChain Tool Calling Agent + RAG, covering resume parsing, job matching, question generation, AI scoring, and reports. FastAPI + PostgreSQL + pgvector + Celery + Docker.',
+      'portfolio.item3.name': 'RAG Smart Outfit Assistant',
+      'portfolio.item3.cat': 'RAG · LLM · Full-Stack',
+      'portfolio.item3.desc': 'A RAG-based outfit recommendation system with LangChain LCEL + ChromaDB. Full pipeline from document parsing, recursive chunking, vector embedding to semantic retrieval, with structured prompts for qwen3-max generation.'
     }
   };
 
@@ -128,21 +122,17 @@
   function getInitialLang() {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored === 'zh' || stored === 'en') return stored;
-    // Default to browser preference, fallback to zh
     const nav = navigator.language || '';
     return nav.startsWith('zh') ? 'zh' : 'en';
   }
 
   function setLanguage(lang) {
-    // Update document
     document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
 
-    // Update toggle button state
     langOptions.forEach((opt) => {
       opt.classList.toggle('active', opt.dataset.lang === lang);
     });
 
-    // Set text for data-i18n elements
     document.querySelectorAll('[data-i18n]').forEach((el) => {
       const key = el.dataset.i18n;
       if (t[lang][key]) {
@@ -150,7 +140,6 @@
       }
     });
 
-    // Set HTML for data-i18n-html elements (handles <br> tags in headings)
     document.querySelectorAll('[data-i18n-html]').forEach((el) => {
       const key = el.dataset.i18nHtml;
       if (t[lang][key]) {
@@ -158,7 +147,6 @@
       }
     });
 
-    // Set aria-labels
     document.querySelectorAll('[data-i18n-aria]').forEach((el) => {
       const key = el.dataset.i18nAria;
       if (t[lang][key]) {
@@ -169,7 +157,6 @@
     localStorage.setItem(STORAGE_KEY, lang);
   }
 
-  // Click individual lang option
   langOptions.forEach((opt) => {
     opt.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -180,7 +167,6 @@
   // ──────────────────────────────────
   //  SECTION NAVIGATION
   // ──────────────────────────────────
-  const wrapper = document.querySelector('.sections-wrapper');
   const sections = [...document.querySelectorAll('.section')];
   const dots = [...document.querySelectorAll('.nav-dot')];
   const total = sections.length;
